@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NAV_LINKS } from "./data/data";
+import { NAV_LINKS } from "../data/data";
 
 export function Navbar({ cartCount, onCartOpen }) {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -14,7 +14,7 @@ import { Cart } from "./components/Cart";
 import styles from "../styles/landing.styles";
 
 // Data
-import { PRODUCTS } from "./components/data/data";
+import { PRODUCTS } from "./data/data";
 
 export default function LandingProvider() {
   const [cart, setCart] = useState([]);

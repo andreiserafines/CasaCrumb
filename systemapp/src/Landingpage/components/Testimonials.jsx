@@ -1,5 +1,5 @@
 import { RevealDiv } from "./RevealDiv";
-import { TESTIMONIALS } from "./data/data";
+import { TESTIMONIALS } from "../data/data";
 
 export function Testimonials() {
   return (

@@ -1,5 +1,5 @@
 import { RevealDiv } from "./RevealDiv";
-import { CATEGORIES } from "./data/data";
+import { CATEGORIES } from "../data/data";
 
 export function CategoryCard({ cat }) {
   return (

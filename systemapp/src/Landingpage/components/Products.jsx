@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PRODUCTS } from "./data/data";
+import { PRODUCTS } from "../data/data";
 import { RevealDiv } from "./RevealDiv";
 
 export function ProductCard({ product, onAdd }) {

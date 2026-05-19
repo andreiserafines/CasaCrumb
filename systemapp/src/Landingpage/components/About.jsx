@@ -1,5 +1,5 @@
-import { useReveal } from "./hooks/useReveal";
-import { STATS } from "./data/data";
+import { useReveal } from "../hooks/useReveal";
+import { STATS } from "../data/data";
 
 export function About() {
   const ref = useReveal();

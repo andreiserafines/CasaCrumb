@@ -1,4 +1,4 @@
-import { MARQUEE_ITEMS } from "./data/data";
+import { MARQUEE_ITEMS } from "../data/data";
 
 export function MarqueeRow() {
   const doubled = [...MARQUEE_ITEMS, ...MARQUEE_ITEMS];
