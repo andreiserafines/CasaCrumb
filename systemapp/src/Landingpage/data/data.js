@@ -1,3 +1,6 @@
+import javs from "../../assets/javs.jpeg";
+// import conch from "../../assets/conch.jpeg";
+
 // ── DATA ──────────────────────────────────────────────────────────────────────
 
 const NAV_LINKS = [
@@ -22,19 +25,19 @@ const CATEGORIES = [
   {
     name: "Classic Cookies",
     sub: "Timeless & beloved",
-    img: "https://images.unsplash.com/photo-1617691538534-4fdbb8c6a3a7?w=600&q=80&fit=crop",
+    img: javs,
     href: "#products",
   },
   {
     name: "Gift Sets",
     sub: "Curated with care",
-    img: "https://images.unsplash.com/photo-1548592673-3b0eae9b3b65?w=600&q=80&fit=crop",
+    img: javs,
     href: "#",
   },
   {
     name: "Seasonal Flavors",
     sub: "Limited & special",
-    img: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&q=80&fit=crop",
+    img: javs,
     href: "#",
   },
 ];
@@ -46,7 +49,7 @@ const PRODUCTS = [
     desc: "Nutty browned butter, Valrhona dark chocolate, sea salt flake",
     price: 180,
     tag: "Bestseller",
-    img: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80&fit=crop&crop=center",
+    img: javs,
   },
   {
     id: 2,
@@ -54,7 +57,7 @@ const PRODUCTS = [
     desc: "Toasted pistachios, rosewater glaze, edible dried petals",
     price: 195,
     tag: "New",
-    img: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&q=80&fit=crop",
+    img: javs,
   },
   {
     id: 3,
@@ -62,7 +65,7 @@ const PRODUCTS = [
     desc: "Ceremonial matcha, black sesame praline, white chocolate drizzle",
     price: 200,
     tag: "",
-    img: "https://images.unsplash.com/photo-1506459225024-1428097a7e18?w=600&q=80&fit=crop",
+    img: javs,
   },
   {
     id: 4,
@@ -70,7 +73,7 @@ const PRODUCTS = [
     desc: "Bergamot-infused dough, fresh blueberry compote, lemon zest",
     price: 195,
     tag: "Limited",
-    img: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80&fit=crop",
+    img: javs,
   },
   {
     id: 5,
@@ -78,7 +81,7 @@ const PRODUCTS = [
     desc: "Pure wildflower honey, flaky sea salt, cultured French butter",
     price: 165,
     tag: "",
-    img: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80&fit=crop&crop=top",
+    img: javs,
   },
   {
     id: 6,
@@ -86,7 +89,7 @@ const PRODUCTS = [
     desc: "Dried mission figs, fresh rosemary, almond frangipane base",
     price: 200,
     tag: "New",
-    img: "https://images.unsplash.com/photo-1600628421060-909a1f1dfbc9?w=600&q=80&fit=crop",
+    img: javs,
   },
   {
     id: 7,
@@ -94,7 +97,7 @@ const PRODUCTS = [
     desc: "Cinnamon sugar crust, soft pillow center, cream of tartar tang",
     price: 160,
     tag: "",
-    img: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=600&q=80&fit=crop",
+    img: javs,
   },
   {
     id: 8,
@@ -102,7 +105,7 @@ const PRODUCTS = [
     desc: "Sicilian lemon curd, culinary lavender, powdered sugar dusting",
     price: 185,
     tag: "",
-    img: "https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=600&q=80&fit=crop",
+    img: javs,
   },
 ];
 

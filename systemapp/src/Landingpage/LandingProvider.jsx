@@ -41,7 +41,7 @@ export default function LandingProvider() {
   return (
     <div className="cc-body">
       <style>{styles}</style>
-      <Announcement />
+      {/* <Announcement /> */}
       <Navbar cartCount={cart.length} onCartOpen={openCart} />
       <Hero />
       <Marquee />

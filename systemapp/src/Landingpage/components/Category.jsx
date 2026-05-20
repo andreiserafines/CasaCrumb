@@ -4,7 +4,12 @@ import { CATEGORIES } from "../data/data";
 export function CategoryCard({ cat }) {
   return (
     <a className="cat-card" href={cat.href}>
-      <img src={cat.img} alt={cat.name} loading="lazy" />
+      <img
+        src={cat.img}
+        alt={cat.name}
+        loading="lazy"
+        className="w-full h-64 object-cover"
+      />
       <div className="cat-overlay" />
       <div className="cat-info">
         <div className="cat-name">{cat.name}</div>

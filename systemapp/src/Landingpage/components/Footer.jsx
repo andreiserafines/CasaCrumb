@@ -5,9 +5,7 @@ export function Footer() {
       <div className="container">
         <div className="foot-top">
           <div>
-            <span className="foot-brand-logo">
-              Casa <em>&</em> Crumb
-            </span>
+            <span className="foot-brand-logo">Casa Crumb</span>
             <p className="foot-tagline">
               Small-batch artisan cookies made with care in Manila, Philippines.
               Every bite tells a little story.

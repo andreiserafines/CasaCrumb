@@ -1129,6 +1129,9 @@ button {
 }
 
 @media (max-width: 600px) {
+  .logo {
+    font-size: 16px;
+  }
   .container {
     padding: 0 20px;
   }

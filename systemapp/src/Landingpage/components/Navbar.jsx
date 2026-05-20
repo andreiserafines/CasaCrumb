@@ -27,7 +27,7 @@ export function Navbar({ cartCount, onCartOpen }) {
             ))}
           </ul>
           <a href="#" className="logo">
-            Casa <em>&</em> Crumb
+            Casa Crumb
           </a>
           <div className="nav-right">
             <button className="nav-icon-btn">Search</button>
