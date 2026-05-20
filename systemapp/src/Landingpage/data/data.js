@@ -135,16 +135,16 @@ const FEATURES = [
 
 const TESTIMONIALS = [
   {
-    text: "The brown butter chocolate chip is the best cookie I've ever had. I ordered twice in one week — zero regrets.",
-    author: "Isabelle R., Makati",
+    text: "Grabe! tataba na ata ako sa mga cookies na 'to, but I don't even care because they're that good. The Brown Butter Chocolate Chip is life-changing!",
+    author: "Mahdia P., Taguig",
   },
   {
-    text: "Gifted the holiday box to my team and they couldn't stop raving. The packaging alone is worth it.",
-    author: "Marco T., BGC",
+    text: "Highly recommended! Sobrang sarap! The perfect balance of chewy and crispy, with high-quality ingredients you can really taste.",
+    author: "Razia S., BGC",
   },
   {
-    text: "Obsessed with the pistachio rose. Soft, fragrant, and so beautifully made. This is my go-to treat.",
-    author: "Sophia L., Quezon City",
+    text: "Talagang makakadami ka ng bili sa sarap, kahit kailan di ako binigo ng store na ito.",
+    author: "Rene T., Quezon City",
   },
 ];
 
