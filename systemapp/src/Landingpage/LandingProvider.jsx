@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Announcement } from "./components/Announcement";
+// import { Announcement } from "./components/Announcement";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { Marquee } from "./components/Marquee";
@@ -12,6 +12,7 @@ import { Newsletter } from "./components/Newsletter";
 import { Footer } from "./components/Footer";
 import { Cart } from "./components/Cart";
 import styles from "../styles/landing.styles";
+import ScrollUp from "./components/ScrollUp";
 
 // Data
 import { PRODUCTS } from "./data/data";
@@ -41,6 +42,7 @@ export default function LandingProvider() {
   return (
     <div className="cc-body">
       <style>{styles}</style>
+      <ScrollUp />
       {/* <Announcement /> */}
       <Navbar cartCount={cart.length} onCartOpen={openCart} />
       <Hero />

@@ -13,16 +13,16 @@ export function About() {
         />
       </div>
       <div ref={ref} className="about-text reveal">
-        <span className="about-eyebrow">Est. 2019 — Manila</span>
+        <span className="about-eyebrow">Est. 2026 — Batangas</span>
         <h2 className="about-title">
           Baked with <em>slowness</em>
           <br />
           and intention
         </h2>
         <p className="about-body">
-          We started Casa Crumb in a small kitchen in Quezon City, making
-          cookies for friends who kept asking for more. Every recipe has been
-          tested dozens of times — refined until each bite feels exactly right.
+          We started Casa Crumb in a small kitchen in Lipa City, making cookies
+          for friends who kept asking for more. Every recipe has been tested
+          dozens of times — refined until each bite feels exactly right.
         </p>
         <div className="stats-row">
           {STATS.map((s) => (

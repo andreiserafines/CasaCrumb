@@ -1,5 +1,8 @@
-import javs from "../../assets/javs.jpeg";
-// import conch from "../../assets/conch.jpeg";
+import doubledecadence from "../../assets/doubledecadence.png";
+import emeraldelation from "../../assets/emeraldelation.png";
+import velvetdream from "../../assets/velvetdream.png";
+import walnutroyale from "../../assets/walnutroyale.png";
+import campfirecrave from "../../assets/campfirecrave.png";
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
 
@@ -11,33 +14,35 @@ const NAV_LINKS = [
 ];
 
 const MARQUEE_ITEMS = [
-  "Brown Butter Chocolate Chip",
-  "Earl Grey Shortbread",
-  "Salted Caramel Thumbprint",
-  "Raspberry Linzer",
-  "Matcha Sesame",
-  "Fig & Rosemary",
-  "Classic Snickerdoodle",
-  "Pistachio Rose",
+  "Walnut Royale",
+  "Velvet Dream",
+  "Emerald Elation",
+  "Double Decadence",
+  "Campfire Crave",
+  "Walnut Royale",
+  "Velvet Dream",
+  "Emerald Elation",
+  "Double Decadence",
+  "Campfire Crave",
 ];
 
 const CATEGORIES = [
   {
     name: "Classic Cookies",
     sub: "Timeless & beloved",
-    img: javs,
+    img: walnutroyale,
     href: "#products",
   },
   {
     name: "Gift Sets",
     sub: "Curated with care",
-    img: javs,
+    img: walnutroyale,
     href: "#",
   },
   {
     name: "Seasonal Flavors",
     sub: "Limited & special",
-    img: javs,
+    img: walnutroyale,
     href: "#",
   },
 ];
@@ -45,73 +50,49 @@ const CATEGORIES = [
 const PRODUCTS = [
   {
     id: 1,
-    name: "Brown Butter Choc Chip",
+    name: "Walnut Royale",
     desc: "Nutty browned butter, Valrhona dark chocolate, sea salt flake",
     price: 180,
     tag: "Bestseller",
-    img: javs,
+    img: walnutroyale,
   },
   {
     id: 2,
-    name: "Pistachio Rose",
-    desc: "Toasted pistachios, rosewater glaze, edible dried petals",
+    name: "Campfire Crave",
+    desc: "Bergamot-infused dough, fresh blueberry compote, lemon zest",
     price: 195,
-    tag: "New",
-    img: javs,
+    tag: "Bestseller",
+    img: campfirecrave,
   },
   {
     id: 3,
-    name: "Matcha Sesame",
+    name: "Emerald Elation",
     desc: "Ceremonial matcha, black sesame praline, white chocolate drizzle",
     price: 200,
     tag: "",
-    img: javs,
+    img: emeraldelation,
   },
   {
     id: 4,
-    name: "Blueberry Earl Grey",
+    name: "Double Decadence",
     desc: "Bergamot-infused dough, fresh blueberry compote, lemon zest",
     price: 195,
-    tag: "Limited",
-    img: javs,
+    tag: "",
+    img: doubledecadence,
   },
   {
     id: 5,
-    name: "Salted Honey Shortbread",
-    desc: "Pure wildflower honey, flaky sea salt, cultured French butter",
-    price: 165,
-    tag: "",
-    img: javs,
-  },
-  {
-    id: 6,
-    name: "Fig & Rosemary",
-    desc: "Dried mission figs, fresh rosemary, almond frangipane base",
-    price: 200,
+    name: "Velvet Dream",
+    desc: "Toasted pistachios, rosewater glaze, edible dried petals",
+    price: 195,
     tag: "New",
-    img: javs,
-  },
-  {
-    id: 7,
-    name: "Brown Sugar Snickerdoodle",
-    desc: "Cinnamon sugar crust, soft pillow center, cream of tartar tang",
-    price: 160,
-    tag: "",
-    img: javs,
-  },
-  {
-    id: 8,
-    name: "Lemon Lavender",
-    desc: "Sicilian lemon curd, culinary lavender, powdered sugar dusting",
-    price: 185,
-    tag: "",
-    img: javs,
+    img: velvetdream,
   },
 ];
 
 const STATS = [
-  { num: "18+", label: "Cookie Flavors" },
-  { num: "5k+", label: "Happy Customers" },
+  { num: "10+", label: "Cookie Flavors" },
+  { num: "500+", label: "Happy Customers" },
   { num: "100%", label: "Handmade" },
 ];
 

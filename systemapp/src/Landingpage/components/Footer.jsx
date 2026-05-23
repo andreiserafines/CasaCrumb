@@ -7,8 +7,8 @@ export function Footer() {
           <div>
             <span className="foot-brand-logo">Casa Crumb</span>
             <p className="foot-tagline">
-              Small-batch artisan cookies made with care in Manila, Philippines.
-              Every bite tells a little story.
+              Small-batch artisan cookies made with care in Batangas,
+              Philippines. Every bite tells a little story.
             </p>
             <div className="foot-socials">
               {["Instagram", "Facebook", "TikTok"].map((s) => (
